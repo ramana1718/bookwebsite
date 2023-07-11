@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	background: url('image/loginimg1.jpg')no-repeat;
+	background-size: cover;
+}
+.login-form{
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	color: black;
+}
+.login-form h1{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+.login-form label{
+	font-size: 20px;
+	margin: 15px 0;
+	font-weight: bold;
+	
+	
+}
+.login-form input{
+	font-size: 16px;
+	width: 200px;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	background-color: silver;
+}
+.login-form button{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%; 
+	background-color: silver;
+}
+.login-form p{
+	color: silver;
+	font-weight: bold;
+}
+.field_set{
+	width: 100%;
+	border: 5px;
+	border-color: "black";
+	border-style: solid;
+}
+.login-form placeholder{
+	color: "black";
+}
+
