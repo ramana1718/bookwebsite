@@ -1,0 +1,171 @@
+@charset "ISO-8859-1";
+body{
+	background-color: whitesmoke;
+}
+.menubar{
+	font-family: 'Times New Roman';
+	background:black;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color:white;
+	
+}
+.menu ul li{
+	width: 160px;
+	margin: 15px;
+	padding: 15px; 
+	
+}
+.menubar ul li:first-child{
+	font-weight: bold;
+	font-size:large;
+	margin-right: 300px;
+	
+.menubar ul li:first-child:hover{
+	font-weight: bold;
+}
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu .fa{
+	margin-right: 8px;
+}
+.menu1{
+	display: none;
+	
+}
+.menu ul li:hover{
+	background:gray;
+	
+}
+.menu ul li a:hover{
+	color:black;
+}
+.menu ul li:hover .menu1{
+	color:white;
+	display: block;
+	position: absolute;
+	background:black;
+	margin-top:15px;
+	margin-left:15px;
+	
+}
+.menu ul li:hover .menu1 ul{
+	display:block;
+	margin: 10px;
+	background: black;
+	color:white;
+}
+.menu ul li:hover .menu1 ul li{
+	margin-left:-10px;
+	font-size: large;
+	margin-right:20px;
+	width :150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	border-radius:0;
+	text-align: left;
+}
+.menu ul li:hover .menu1 ul li:last-child{
+	border-bottom:none;
+	}
+.menu ul li:hover .menu1 ul li a:hover{
+	background:gray;
+	color:black;
+	
+}
+.ad {
+	background-color: whitesmoke;
+	margin-left: 150px;
+}
+.ad  button{
+	color:white;
+	background-color:black;  
+	font-size:large;
+	font-weight: bold;
+	padding:14px 80px 14px 65px;
+}
+.ad button:hover{
+	background-color: gray;
+	color:black;
+}
+
+.ad img{
+	margin-top:-280px;
+	margin-left:700px;
+	background-color: black;
+	padding: 25px 15px;
+
+}
+.ad img:hover{
+	background-color: gray;
+	padding: 25px 15px;
+
+}
+.book1{
+	background-color:silver;
+	width:290px;
+	text-align:center;
+	padding: 25px 15px;
+	border:2px;
+	margin-top:20px;
+	margin-left:10px;
+	margin-bottom:50px;
+	box-shadow:20px 20px 24px rgba(0,0,0,0.03);	
+	margin-right:10px;
+}
+.book1:hover{
+	background-color: gray;
+}
+.book1 h3 a{
+	color: black;
+	text-decoration: none;
+}
+.book1 h3 a:hover{
+	background: whitesmoke;
+	text-transform: uppercase;
+}
+#author{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#header {
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tab{
+	background-color: black;
+	color:white;
+	padding:20px 20px 20px 20px;
+	font-size:large;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 80px;;
+}
+#last{
+	text-align: center;
+	margin-bottom:150px;
+}
+#last a{
+	margin-right:50px;
+	color:black;
+	font-size: 30px;
+}
+
+#last a i:hover{
+	background-color: gray;
+	padding:5px 5px;
+}

@@ -1,0 +1,276 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+.menu{
+	background-image:url(image/wp4.jpg);
+	height: 75vh;
+	width:100%;
+	background-size: cover;
+	background-repeat:no repeat;
+}
+
+.menubar{
+	font-family: 'Times New Roman';
+	background:black;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color:white;
+	
+}
+.menu ul li{
+
+	width: 170px;
+	margin: 15px;
+	padding: 15px; 
+	
+}
+.menubar ul li:first-child{
+	font-weight: bold;
+
+	font-size:large;
+	margin-right: 300px;
+	
+.menubar ul li:first-child:hover{
+	font-weight: bold;
+}
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu .fa{
+	margin-right: 8px;
+}
+.menu1{
+	display: none;
+	
+}
+.menu ul li:hover{
+	background:gray;
+	
+}
+.menu ul li a:hover{
+	color:black;
+}
+.menu ul li:hover .menu1{
+	color:white;
+	display: block;
+	position: absolute;
+	background:black;
+	margin-top:15px;
+	margin-left:15px;
+	
+}
+.menu ul li:hover .menu1 ul{
+	display:block;
+	margin: 10px;
+	background: black;
+	color:white;
+}
+.menu ul li:hover .menu1 ul li{
+	font-size: large;
+	margin-right: 20px;
+	width :150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	border-radius:0;
+	text-align: left;
+}
+.menu ul li:hover .menu1 ul li:last-child{
+	border-bottom:none;
+	}
+.menu ul li:hover .menu1 ul li a:hover{
+	background:gray;
+	color:black;
+	
+}
+#header{
+	padding:120px;
+	margin-left:50px;
+	margin-right: 100px;;
+	text-align: center;
+	vertical-align: text-bottom;
+	font-size:xx-large;
+	font-weight: bolder;
+	
+}
+#header button i{
+	size: 40px;
+}
+#header button{
+	color:black;
+	background-color:silver;  
+	font-size:large;
+	font-weight: bold;
+	padding:14px 80px 14px 65px;
+}
+#header button:hover{
+	color:black;
+	background-color:gray;
+	text-transform:uppercase;
+}
+
+#popular{
+	text-decoration:underline;
+	color:black;
+	font-size: xx-large;
+	padding: 15px;
+	text-align: center;;
+}
+.class1{
+	background-color: silver;
+	width:230px;
+	text-align:center;
+	padding: 25px 15px;
+	border:2px;
+	margin-left:50px;
+	margin-bottom:100px;
+	box-shadow:20px 20px 34px rgba(0,0,0,0.03);
+	margin-right:80px;
+	
+}
+.class1:hover{
+	background-color: gray;
+}
+.class1 h3 a{
+
+	color:black;
+	text-decoration: none;
+	font-size: xx-large;
+}
+#famous{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#last{
+	text-align: center;
+	margin-bottom:150px;
+}
+#last h1 a{
+	font-size: x-large;
+	color:dodgerblue;
+	text-decoration: none;
+}
+#last h1 a:hover{
+	text-decoration: underline;
+}
+
+#last .app a{
+	margin-right:50px;
+	color:black;
+	font-size: 30px;
+}
+
+#last .app a i:hover{
+	background-color: gray;
+	padding:5px 5px;
+}
+.lastb{
+	margin-left: 50px;
+}
+.lastb a{
+	color: dodgerblue;
+	text-decoration: none;
+}
+.lastb a:hover{
+	text-decoration: underline;
+}
+#famous .class1:nth-child(1) h3:hover{
+	background-color:dodgerblue;
+	text-transform: uppercase;
+}
+#famous .class1:nth-child(2) h3:hover{
+	background-color:darkorange;
+	text-transform: lowercase;
+}
+#famous .class1:nth-child(3) h3:hover{
+	background-color:mediumblue;
+	text-transform: lowercase;
+}
+#famous .class1:nth-child(4) h3:hover{
+	background-color:yellow;
+	text-transform: uppercase;
+}
+.exp{
+	color:white;
+	background:black;
+
+}
+.exp h1{
+	margin-left: 100px;
+}
+.exp h3{
+	margin-left:100px;
+}
+.exp a button{
+	margin-left:100px;
+	color:black;
+	background-color:white;  
+	font-size:large;
+	font-weight: bold;
+	padding:14px 80px 14px 65px;
+	
+}
+.exp a button:hover{
+	
+	color:black;
+	background-color:gray;  
+	font-size:large;
+	font-weight: bold;
+	padding:14px 80px 14px 65px;
+	
+}
+
+.article p{
+	margin-top:-200px;
+	margin-left:800px;
+	margin-right: 50px;
+	margin-bottom:50px;
+	color:white;
+	font-size: x-large;
+}
+.article a{
+	color:aqua
+}
+.slide{
+	margin-left:565px;
+	margin-top:-310px;
+	width:180px;
+	height:270px;
+	background:url(image/slide1.jpg);
+	margin-right:25px;
+	animation: slide 20s infinite;
+	
+}
+@keyframes slide{
+	25%{
+		background:url(image/s2.png);
+	}
+	50%{
+		background:url(image/s3.png);
+	}
+	75%{
+		background:url(image/s4.png);
+	}
+	100%{
+		background:url(image/slide1.jpg);
+	}
+}
+
+
+
+	
